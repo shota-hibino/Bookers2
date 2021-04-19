@@ -27,3 +27,36 @@ body {
     text-align: left;
     background-color: #fff
 }
+
+div.field, div.actions {
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    table-layout: fixed;
+}
+
+table td {
+  overflow-wrap : break-word;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+
+label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+#notice{
+  color: green;
+}
