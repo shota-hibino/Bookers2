@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
+  # top画面を/のルートに設定
   root to: 'homes#top'
+  # aboutのルート作成
   get "home/about" => "homes#about"
 
   devise_for :users
